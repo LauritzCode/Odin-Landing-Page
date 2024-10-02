@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background: linear-gradient(90deg, rgba(214,214,214,1) 0%, rgba(230,249,255,1) 63%, rgba(237,251,255,1) 100%);
+    background: linear-gradient(258deg, rgba(221,241,255,1) 0%, rgba(243,250,255,1) 100%);
     box-shadow: 2px 16px 27px 3px rgba(0,0,0,0.58);
     text-decoration: none;
     font-size: 1.5em;
@@ -47,7 +47,7 @@ color: rgba(0, 0, 0, 0.778);
 }
 
 .hero-section {
-    background: linear-gradient(90deg, rgba(18,47,68,1) 0%, rgba(28,55,64,1) 63%, rgba(1,20,25,1) 100%);
+    background: linear-gradient(87deg, rgba(0,27,46,1) 0%, rgba(18,47,68,1) 100%);
     box-shadow: -2px 12px 22px -3px rgba(0,0,0,0.27);
     display: flex;
     justify-content: center;
@@ -92,9 +92,9 @@ color: rgba(0, 0, 0, 0.778);
 .sign-up {
     width: 100px;
     color: rgb(255, 255, 255);
-    background-color: rgb(13, 120, 227);
+    background: rgb(22, 63, 92);
     padding: 10px;
-    border: none;
+    border: 2px solid white;
     border-radius: 8px;
     cursor: pointer;
     font-size: 1.1rem;
@@ -103,8 +103,8 @@ color: rgba(0, 0, 0, 0.778);
 }
 
 .sign-up:hover {
-    background-color: rgb(11, 101, 192);
     transform: scale(1.05);
+    background: rgb(30, 88, 129);
 }
 
 .sign-up:active {
@@ -136,6 +136,7 @@ width: 200px;
 border-radius: 8px;
 box-shadow: -2px 12px 22px -3px rgba(0,0,0,0.27);
 transition: 0.5s;
+cursor: pointer;
 }
 
 .product-img:hover {
@@ -151,7 +152,7 @@ transition: 0.5s;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
+    gap: 20px;
 }
 
 .inspiration-container {
@@ -160,7 +161,7 @@ transition: 0.5s;
     align-items: center;
     justify-content: center;
     box-shadow: -2px 12px 22px -3px rgba(0,0,0,0.27);
-    background: linear-gradient(90deg, rgba(18,47,68,1) 0%, rgba(28,55,64,1) 63%, rgba(1,20,25,1) 100%);
+    background: linear-gradient(87deg, rgba(0,27,46,1) 0%, rgba(18,47,68,1) 100%);
     height: 500px;
     color: white;
     font-size: 2.5rem;
@@ -185,9 +186,7 @@ transition: 0.5s;
     justify-content: center;
     transition: 0.5s;
 }
-.call-to-action-section:hover {
-    transform: scale(1.01);
-}
+
 
 
 .call-to-action-container {
@@ -209,18 +208,24 @@ transition: 0.5s;
 .cta-signup {
     padding: 10px 20px;
     color: white;
-    background-color: rgb(36, 103, 249);
+    background: rgb(22, 63, 92);
     border-radius: 8px;
     border: 2px solid white;
     text-align: center;
     cursor: pointer;
     font-size: 1.5rem;
+    transition: 1s ease;
+}
+
+.cta-signup:hover {
+    transform: scale(1.05);
+    background: rgb(30, 88, 129);
 }
 
 .footer {
     width: 100%;
     padding: 20px 0px;
-    background: linear-gradient(90deg, rgba(18,47,68,1) 0%, rgba(28,55,64,1) 63%, rgba(1,20,25,1) 100%);
+    background-color: rgba(18,47,68,1);
 }
 
 .footer-text {
